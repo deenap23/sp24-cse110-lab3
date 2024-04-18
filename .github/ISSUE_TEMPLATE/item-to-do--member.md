@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-## Item To Do 
-### Describe the task that still needs to be done
-*FRONTEND* or *BACKEND* issue.
-Note: location and infrastructure that is desired
-Member: what team member does this issue need to be addressed by and why
+## Item To Do  
+### Describe the task that still needs to be done  
+*FRONTEND* or *BACKEND* issue.  
+Note: location and infrastructure that is desired  
+Member: what team member does this issue need to be addressed by and why  
