@@ -1,0 +1,28 @@
+/* Color headers and subheaders */
+h1 {
+    color:darkslateblue /* color */
+}
+h2 {
+    color:rgba(182, 158, 230, 0.8); /* rgba */
+} 
+h3 {
+    color:hsl(210, 37%, 48%); /* hsl */
+} 
+h4 {
+    color: color(srgb 0 0.4 0.5); /* wider gamut 1 */
+}
+
+p {
+    color: #434343; /* hex codes */
+}
+li {
+    color:rgb(72, 61, 139) /* background color */
+}
+
+nav{
+    background-color: lightcyan;
+}
+
+div{
+    color:color-mix(in lch, plum 40%, pink); /* wider gamut 2 */
+}
