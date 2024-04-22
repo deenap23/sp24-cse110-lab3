@@ -1,6 +1,25 @@
 :root {
     --backup-bg-color: rgb(246, 175, 255);
 }
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
 h1 {
     background-color: var(--non-exisiting, var(--backup-bg-color));  /* variable fallback, background color */
     color:darkslateblue; /* color */
@@ -14,6 +33,9 @@ h2 {
 h3 {
     color:hsl(210, 37%, 48%); /* hsl */
 } 
+.class2{
+    text-align: center;
+}
 h4 {
     color: color(srgb 0 0.4 0.5); /* wider gamut 1 */
 }
@@ -25,6 +47,7 @@ li {
     color:rgb(72, 61, 139); 
     padding: 20px 20px 10px 8px; /* padding short */
     margin: auto; /* auto margin */
+    
 
 }
 
@@ -37,9 +60,11 @@ nav{
     border-radius: 10%;
     border-width: 10%;
     border-style: dashed;
+    display: grid; /* display 1 */
 }
 
 div{
+    font-family: "Libre Baskerville", serif; /* third party font */
     color:color-mix(in lch, plum 40%, pink); /* wider gamut 2 */
 }
 
@@ -48,6 +73,7 @@ div{
 }
 #questionnaire-title{
     background-color: aliceblue;
+    text-align: center;
     width: 160px; /* absolute #3 */
     height: 15px; 
     padding-top: 4%; /* padding long */
@@ -62,4 +88,23 @@ div{
     margin-left: 50px;
     margin-bottom: 0px;
     margin-right: 0px;
+}
+#absent{
+    text-decoration: line-through;
+}
+#hidden{
+    display: none; /* display 2 */
+}
+fieldset{ /* sizing */
+    position: relative;
+    height: fit-content; 
+    width: fit-content;
+}
+textarea{
+    max-width: 60%;
+    min-width: 20%;
+}
+#sticky-button{
+    position: sticky;
+    top: 20px;
 }
