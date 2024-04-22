@@ -2,9 +2,10 @@
     --backup-bg-color: rgb(246, 175, 255);
 }
 h1 {
-    background-color: var(--non-exisiting, var(--backup-bg-color));  /* variable fallback */
+    background-color: var(--non-exisiting, var(--backup-bg-color));  /* variable fallback, background color */
     color:darkslateblue; /* color */
     font-size: 0.8cm; /* absolute #2 */
+    
 }
 h2 {
     color:rgba(182, 158, 230, 0.8); /* rgba */
@@ -17,17 +18,25 @@ h4 {
     color: color(srgb 0 0.4 0.5); /* wider gamut 1 */
 }
 
-p {
-    color: #434343; /* hex codes */
+p, form {
+    color: #200606; /* hex codes */
 }
 li {
-    color:rgb(72, 61, 139) /* background color */
+    color:rgb(72, 61, 139); 
+    padding: 20px 20px 10px 8px; /* padding short */
+    margin: auto; /* auto margin */
+
 }
 
 nav{
     background-color: lightcyan;
-    width: 60%; /* relative #1 */
+    width: 42%; /* relative #1 */
     height: 1.7em; /* relative #2 */
+    margin: 5% 5% 5% 5%; /* margin short */
+    border-color: hsl(210, 37%, 48%); /* borders */
+    border-radius: 10%;
+    border-width: 10%;
+    border-style: dashed;
 }
 
 div{
@@ -40,6 +49,17 @@ div{
 #questionnaire-title{
     background-color: aliceblue;
     width: 160px; /* absolute #3 */
-    height: 15px;
+    height: 15px; 
+    padding-top: 4%; /* padding long */
+    padding-left: 6%;
+    padding-bottom: 4%;
+    padding-right: 6%;
+    font-size: larger;
     
+}
+#indent{ /* margin long */
+    margin-top: 0px; 
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
