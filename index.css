@@ -3,10 +3,12 @@
 }
 h1 {
     background-color: var(--non-exisiting, var(--backup-bg-color));  /* variable fallback */
-    color:darkslateblue /* color */
+    color:darkslateblue; /* color */
+    font-size: 0.8cm; /* absolute #2 */
 }
 h2 {
     color:rgba(182, 158, 230, 0.8); /* rgba */
+    font-size: 1.5rem; /* relative #3 */
 } 
 h3 {
     color:hsl(210, 37%, 48%); /* hsl */
@@ -24,8 +26,20 @@ li {
 
 nav{
     background-color: lightcyan;
+    width: 60%; /* relative #1 */
+    height: 1.7em; /* relative #2 */
 }
 
 div{
     color:color-mix(in lch, plum 40%, pink); /* wider gamut 2 */
+}
+
+.class1{
+    font-size: 12pt; /* absolute #1 */
+}
+#questionnaire-title{
+    background-color: aliceblue;
+    width: 160px; /* absolute #3 */
+    height: 15px;
+    
 }
