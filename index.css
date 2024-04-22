@@ -1,5 +1,8 @@
-/* Color headers and subheaders */
+:root {
+    --backup-bg-color: rgb(246, 175, 255);
+}
 h1 {
+    background-color: var(--non-exisiting, var(--backup-bg-color));  /* variable fallback */
     color:darkslateblue /* color */
 }
 h2 {
