@@ -23,7 +23,7 @@
           <li>Jon Gregory (<b>Intern</b>)</li>
           <li id = "absent">KayLeigh Coberly (<b>Ging</b>)</li>  
         </ul>
-        <h3>Agenda:</h3>
+        <h3 id="agenda">Agenda:</h3>
         <ol>    
           <li><a href="#individual-introduction">Individual Introduction</a></li>
           <li><a href="#ice-breaker">Ice Breaker</a></li>
@@ -62,8 +62,8 @@
             <a href="https://www.when2meet.com/?24586147-E1lNI">FRIDAY AVAILIBILITY</a>
           </nav>
         </section>
-        <section>
-          <h3><i>ICYMI</i></h3>
+        <section id="ICYMI">
+          <h5 class="icymi-title"><i>ICYMI</i></h5>
           <p>Video Intro:</p>
           <video width="320" height="240" controls>
             <source src="Lab2Video.mp4" type="video/mp4">
@@ -77,11 +77,11 @@
         <form>
           <button id="sticky-button" type="button">STICKY BUTTON</button>
 
-          <p id="questionnaire-title"><b>Questionnaire</b></p>
-          <label for="gname">Group Name Ideas:</label>
+          <h2 id="questionnaire-title">Questionnaire</h2>
+          <label style="color:blue;" for="gname">Group Name Ideas:</label>
           <input type="text" id="gname"><br>
           
-          <p>Weekend Availibility:</p>
+          <p class="form-titles">Weekend Availibility:</p>
           <input type="radio" id="yweekend" name="weekends" value="yes">
           <label for="yweekend">Yes, I have availibility on weekends</label><br>
           <input type="radio" id="nweekend" name="weekends" value="no">
@@ -92,7 +92,7 @@
           <input type="checkbox" id="check">
           <label for="check">I am ready to start now</label><br>
 
-          <p><label for="excited">Share what you are most excited about:</label></p>
+          <p class="form-titles"><label for="excited">Share what you are most excited about:</label></p>
           <textarea id="excited" name="excited" rows="4" cols="50"></textarea>
           <br><br>
           <label for="select">Gender</label>
@@ -132,13 +132,20 @@
         <hr>
         <details>
           <summary>Meeting #1 Summary:</summary>
+          <style>
+            summary{
+              color: blue;
+            }
+          </style>
           <p>primarily focused on member introductions and team building. After introductions and an ice breaker, move attention towards the project. The team disucssed the proposal and looked over logistics.</p>
         </details>
 
         
-        <form>
-          
-        </form>
+        <div id ="flex-container">
+          <div id="red-box">TOGETHER</div>
+          <div id="blue-box">BUILD</div>
+          <div id="green-box">WORK</div>
+        </div>
     </main>
     <footer>Imaginary company, 1-800-0000-000</footer>
   </body>
