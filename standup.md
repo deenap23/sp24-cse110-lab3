@@ -1,5 +1,5 @@
 # Daily Standup
-### Date 00/00/0000
+### Date dd/mm/yyyy
 #### Time 00:00
 |Team name| Enter team name|
 |---------|---------|
